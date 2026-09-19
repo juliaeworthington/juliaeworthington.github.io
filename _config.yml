@@ -1,3 +1,5 @@
 remote_theme: "mmistakes/minimal-mistakes@4.28.1"
 title: Julia Worthington
 description: Project for CSCI 5612
+plugins:
+  - jekyll-include-cache
