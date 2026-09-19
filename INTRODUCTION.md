@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "INTRODUCTION"
+title: "Introduction"
 permalink: /introduction
 published: true
 ---
