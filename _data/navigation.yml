@@ -2,4 +2,4 @@ docs:
   - title: "Portfolio Project"
     children:
       - title: "Introduction"
-        url: /introduction
+        url: /introduction/
