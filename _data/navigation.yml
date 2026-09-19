@@ -1,0 +1,7 @@
+my_custom_nav:
+  - title: "Getting Started"
+    url: /docs/quick-start/
+  - title: "Configuration"
+    url: /docs/configuration/
+  - title: "Layouts"
+    url: /docs/layouts/
