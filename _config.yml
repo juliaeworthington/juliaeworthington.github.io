@@ -5,4 +5,4 @@ plugins:
   - jekyll-include-cache
 minimal_mistakes_skin: "dark"
 sidebar:
-  nav: "my_custom_nav"
+  nav: "docs"
