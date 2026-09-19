@@ -1,3 +1,5 @@
 my_custom_nav:
-  - title: "Introduction"
-    url: /introduction
+  - title: "Portfolio Project"
+    children:
+      - title: "Introduction"
+        url: /introduction
