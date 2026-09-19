@@ -1,4 +1,4 @@
-my_custom_nav:
+docs:
   - title: "Portfolio Project"
     children:
       - title: "Introduction"
