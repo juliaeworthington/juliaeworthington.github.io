@@ -7,3 +7,6 @@ project:
         url: /data/
       - title: "Conclusions"
         url: /conclusions/
+main:
+  - title: "Portfolio Project"
+    url: /introduction/
