@@ -3,3 +3,5 @@ docs:
     children:
       - title: "Introduction"
         url: /introduction/
+      - title: "Conclusions"
+        url: /conclusions/
