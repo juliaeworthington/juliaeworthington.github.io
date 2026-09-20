@@ -1,9 +1,9 @@
-docs:
-  - title: "Home"
-    url: /home/
+project:
   - title: "Portfolio Project"
     children:
       - title: "Introduction"
         url: /introduction/
+      - title: "Data Prep/EDA"
+        url: /data/
       - title: "Conclusions"
         url: /conclusions/
