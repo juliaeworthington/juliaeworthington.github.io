@@ -5,6 +5,12 @@ project:
         url: /introduction/
       - title: "Data Prep/EDA"
         url: /data/
+      - title: "Clustering"
+        url: /clustering/
+      - title: "PCA"
+        url: /pca/
+      - title: "Regression"
+        url: /regression/
       - title: "Conclusions"
         url: /conclusions/
 main:
