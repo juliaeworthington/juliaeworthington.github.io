@@ -1,6 +1,6 @@
 remote_theme: "mmistakes/minimal-mistakes@4.28.1"
 title: "Julia Worthington"
-subtitle: "Math and Dance Educator in Boulder, CO"
+subtitle: "Master's Student, Applied Mathematics, University of Colorado, Boulder"
 plugins:
   - jekyll-include-cache
 minimal_mistakes_skin: "neon"
