@@ -2,6 +2,8 @@
 layout: default
 title: "Data"
 permalink: /data/
+sidebar:
+  nav: "project"
 published: true
 ---
 source: https://www.kaggle.com/datasets/sergionefedov/counter-strike-competitive-scene-2012-2026?resource=download
