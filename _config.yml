@@ -5,11 +5,5 @@ plugins:
   - jekyll-include-cache
 minimal_mistakes_skin: "neon"
 layout: single
-defaults:
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      sidebar:
-        nav: "docs"
+sidebar:
+  nav: "docs"
