@@ -12,7 +12,7 @@ rival, Natus Vincere, who eliminated Vitality from the event. Since then, Vitali
 Team Vitality's downfall since IEM Atlanta is puzzling. How is a team that showed such promise during the first half of the year struggling so much during the second half? Some blame the vacations taken by players in between events. Others point to specific players. There is also the question of the map pool, which changed shortly after the event. While online users are calling for the team to disband or make roster changes, it is unclear what, or who, is the real problem. This project aims to analyze the performance of each of the players on Vitality's active roster: apeX, ZyWoo, Mezii, ropz, and flameZ from before and after the event. It will also look at other top 10 teams, which have shifted around significantly over the last five months. 
 
 
-# Research Questions
+## Research Questions
 Why is Vitality's performance worse than it was during the first half of the year? 
 How does the current state of Vitality compare to that of Astralis during their downfall? 
 Overpass, a map frequently played by Vitality, was removed from the map pool in early July of this year. 
