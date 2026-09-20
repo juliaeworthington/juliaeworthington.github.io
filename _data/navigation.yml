@@ -1,5 +1,5 @@
 docs:
-  - title: Portfolio Project
+  - title: "Portfolio Project"
     children:
       - title: "Introduction"
         url: /introduction/
