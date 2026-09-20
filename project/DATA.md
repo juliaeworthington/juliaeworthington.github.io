@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: "Data"
 permalink: /data/
 sidebar:
