@@ -6,3 +6,4 @@ sidebar:
   nav: "docs"
 published: true
 ---
+does the sidebar work!!!!!!!!!
