@@ -1,4 +1,6 @@
 docs:
+  - title: "Home"
+    url: /home/
   - title: "Portfolio Project"
     children:
       - title: "Introduction"
