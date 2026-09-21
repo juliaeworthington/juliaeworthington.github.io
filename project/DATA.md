@@ -16,3 +16,6 @@ Dataset providing a broad overview of competitive Counter-Strike, 2012-2026 ([li
 
 ### rdy.gg 
 Visualizing Counter-Strike statistics, such as [player position](https://rdy.gg/en/cs2/stats?tab=player-positions), [player rating](https://rdy.gg/en/cs2/stats?tab=player-ratings), and [team summaries](https://rdy.gg/en/cs2/stats?tab=team-summary). 
+
+## Data Cleaning
+As far as cleaning goes, there isn't much to do. Since the data pulls directly from game match files, there are no NAs or rows left empty. However, there are still strings that need to be converted to integers and columns that should be implemented for easier data analysis. For example, in the `/hltv//csv` file, the `Result` string was parsed into two separate integer arrays, `Vitality Score` and  `Opponent Score`. A `Differential` array was also added to aid in visualization. 
