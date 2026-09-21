@@ -20,7 +20,7 @@ Visualizing Counter-Strike statistics, such as [player position](https://rdy.gg/
 ## Data Cleaning
 As far as cleaning goes, there isn't much to do. Since the data pulls directly from game match files, there are no NAs or rows left empty. However, there are still strings that need to be converted to integers and columns that should be implemented for easier data analysis. For example, in the `hltv/tournaments_2026.csv` Github file, the `Result` string was parsed into two separate integer arrays, `Vitality Score` and  `Opponent Score` to form `hltv/tournaments_cleaned`. A `Differential` array was also added to aid in visualization. 
 
-![](<img width="570" height="314" alt="image" src="https://github.com/user-attachments/assets/cef397df-f560-404f-bda8-4d33441ebbe4" />)
+![<img width="570" height="314" alt="image" src="https://github.com/user-attachments/assets/cef397df-f560-404f-bda8-4d33441ebbe4" />]
 *Before Cleaning*
-![](<img width="789" height="320" alt="image" src="https://github.com/user-attachments/assets/e792de46-416d-469e-aa9a-3c387e4bfaf5" />)
+![<img width="789" height="320" alt="image" src="https://github.com/user-attachments/assets/e792de46-416d-469e-aa9a-3c387e4bfaf5" />]
 *After Cleaning*
