@@ -18,10 +18,12 @@ Dataset providing a broad overview of competitive Counter-Strike, 2012-2026 ([li
 Visualizing Counter-Strike statistics, such as [player position](https://rdy.gg/en/cs2/stats?tab=player-positions), [player rating](https://rdy.gg/en/cs2/stats?tab=player-ratings), and [team summaries](https://rdy.gg/en/cs2/stats?tab=team-summary). 
 
 ## Data Cleaning
-As far as cleaning goes, there isn't much to do. Since the data pulls directly from game match files, there are no NAs or rows left empty. However, there are still strings that need to be converted to integers and columns that should be implemented for easier data analysis. For example, in the `hltv/tournaments_2026.csv` Github file, the `Result` string was parsed into two separate integer arrays, `Vitality Score` and  `Opponent Score` to form `hltv/tournaments_cleaned`. A `Differential` array was also added to aid in visualization. 
+As far as cleaning goes, there isn't much to do. Since the data pulls directly from game match files, there are no NAs or rows left empty. However, there are still strings that need to be converted to integers and columns that should be implemented for easier data analysis. For example, in the `hltv/tournaments_2026.csv` Github file, the `Result` string was parsed into two separate integers, `Vitality Score` and  `Opponent Score` to form `hltv/tournaments_cleaned`. A `Differential` integer was also added to aid in visualizations. 
 
 Before cleaning:
 <img width="570" height="314" alt="image" src="https://github.com/user-attachments/assets/cef397df-f560-404f-bda8-4d33441ebbe4" />
 
 After cleaning:
 <img width="789" height="320" alt="image" src="https://github.com/user-attachments/assets/e792de46-416d-469e-aa9a-3c387e4bfaf5" />
+
+## Data Visualization
