@@ -3,7 +3,7 @@ layout: single
 title: "Introduction"
 permalink: /introduction/
 sidebar:
-  image: <img width="600" height="728" alt="image" src="https://github.com/user-attachments/assets/3882fb37-5a15-4c09-965e-14a25d068ebc" />
+  image: <img width="1543" height="1875" alt="Team-Vitality-Logo-Vector svg-" src="https://github.com/user-attachments/assets/b810f6f5-9120-48b8-8c93-7afc3573d0e5" />
   nav: "project"
 published: true
 ---
