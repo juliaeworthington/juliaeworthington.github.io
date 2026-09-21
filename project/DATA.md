@@ -26,6 +26,6 @@ Before cleaning:
 
 After cleaning:
 
-<img width="789" height="320" alt="image" src="https://github.com/user-attachments/assets/e792de46-416d-469e-aa9a-3c387e4bfaf5" />
+<img width="772" height="316" alt="image" src="https://github.com/user-attachments/assets/0f088e1d-9ddb-462a-92c5-84027f9e550f" />
 
 ## Data Visualization
