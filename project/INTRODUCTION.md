@@ -3,8 +3,8 @@ layout: single
 title: "Introduction"
 permalink: /introduction/
 sidebar:
-  nav: "project"
   image: <img width="600" height="728" alt="image" src="https://github.com/user-attachments/assets/3882fb37-5a15-4c09-965e-14a25d068ebc" />
+  nav: "project"
 published: true
 ---
 <img width="5958" height="3974" alt="Qs3mP5oyqHyp6ExODWb5r7" src="https://github.com/user-attachments/assets/45448e2b-bcab-4428-a62b-72e8d0c2b093" />
