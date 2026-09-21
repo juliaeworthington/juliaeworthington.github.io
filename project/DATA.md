@@ -9,7 +9,10 @@ published: true
 ---
 ## Data Sources
 ### Kaggle
-Overview of competitive Counter-Strike, 2012-2026 ([link](https://www.kaggle.com/datasets/sergionefedov/counter-strike-competitive-scene-2012-2026?resource=download))
+Dataset providing a broad overview of competitive Counter-Strike, 2012-2026 ([link](https://www.kaggle.com/datasets/sergionefedov/counter-strike-competitive-scene-2012-2026?resource=download)).
 
-### HLTV
-*The* competitive Counter-Strike database. Data acquired using HLTV-API by Gabriel C. Netto on GitHub ([link](https://github.com/Gabrielcnetto/HLTV-api/tree/main))
+### HLTV.org
+*The* competitive Counter-Strike database. [Link](https://www.hltv.org/team/9565/vitality) to Team Vitality's page, [list](https://www.hltv.org/stats/teams/matches/9565/vitality?startDate=2026-01-01&endDate=2026-12-31) of map results from 2026, and each player's statistics page: [apEX](https://www.hltv.org/stats/players/7322/apex?csVersion=CS2), [ropz](https://www.hltv.org/stats/players/11816/ropz?csVersion=CS2), [ZywOo](https://www.hltv.org/stats/players/11893/zywoo?csVersion=CS2), [flameZ](https://www.hltv.org/stats/players/16693/flamez?csVersion=CS2), and [mezii](https://www.hltv.org/stats/players/18462/mezii?csVersion=CS2). 
+
+### rdy.gg 
+Visualizing Counter-Strike statistics, such as [player position](https://rdy.gg/en/cs2/stats?tab=player-positions), [player rating](https://rdy.gg/en/cs2/stats?tab=player-ratings), and [team summaries](https://rdy.gg/en/cs2/stats?tab=team-summary). 
