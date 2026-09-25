@@ -5,6 +5,8 @@ project:
         url: /introduction/
       - title: "Data Prep/EDA"
         url: /data/
+      - title: "Data (DO NOT GRADE)"
+        url: /data2/
       - title: "Clustering"
         url: /clustering/
       - title: "PCA"
