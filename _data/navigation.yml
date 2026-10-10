@@ -13,6 +13,14 @@ project:
         url: /regression/
       - title: "Conclusions"
         url: /conclusions/
+      - title: "Naive Bayes"
+        url: /naivebayes/
+      - title: "Ada Boost"
+        url: /adaboost/
+      - title: "Gradient Boosting"
+        url: /gradientboosting/
+      - title: "XG Boost"
+        url: /xgboost/
 main:
   - title: "Portfolio Project"
     url: /introduction/
