@@ -9,6 +9,8 @@ project:
         url: /clustering/
       - title: "PCA"
         url: /pca/
+      - title: "Decision Trees"
+        url: /dectrees/
       - title: "Regression"
         url: /regression/
       - title: "Conclusions"
