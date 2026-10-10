@@ -9,20 +9,20 @@ project:
         url: /clustering/
       - title: "PCA"
         url: /pca/
+      - title: "Naive Bayes"
+        url: /naivebayes/
       - title: "Decision Trees"
         url: /dectrees/
       - title: "Regression"
         url: /regression/
-      - title: "Conclusions"
-        url: /conclusions/
-      - title: "Naive Bayes"
-        url: /naivebayes/
-      - title: "Ada Boost"
+      - title: "AdaBoost"
         url: /adaboost/
       - title: "Gradient Boosting"
         url: /gradientboosting/
-      - title: "XG Boost"
+      - title: "XGBoost"
         url: /xgboost/
+      - title: "Conclusions"
+        url: /conclusions/
 main:
   - title: "Portfolio Project"
     url: /introduction/
