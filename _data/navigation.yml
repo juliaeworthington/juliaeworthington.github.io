@@ -18,7 +18,7 @@ project:
       - title: "AdaBoost"
         url: /adaboost/
       - title: "Gradient Boosting"
-        url: /gradientboosting/
+        url: /gradientboost/
       - title: "XGBoost"
         url: /xgboost/
       - title: "Conclusions"
