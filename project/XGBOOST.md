@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "XG Boost"
+title: "XGBoost"
 permalink: /xgboost/
 sidebar:
   nav: "project"
