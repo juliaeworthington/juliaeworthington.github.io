@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Decision Trees"
-permalink: /decisiontrees/
+permalink: /dectrees/
 sidebar:
   nav: "project"
 published: true
