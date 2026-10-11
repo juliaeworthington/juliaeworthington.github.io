@@ -9,7 +9,10 @@ published: true
 ---
 ## Data Sources
 ### Kaggle
-Dataset providing a broad overview of competitive Counter-Strike, 2012-2026 ([link](https://www.kaggle.com/datasets/sergionefedov/counter-strike-competitive-scene-2012-2026?resource=download)).
+Dataset providing a broad overview of competitive Counter-Strike, 2012-2026 ([link](https://www.kaggle.com/datasets/sergionefedov/counter-strike-competitive-scene-2012-2026?resource=download)). The following files were pulled directly from Kaggle. 
+- `kaggle/tournament_results.csv` - major and large tournament results from DreamHack Winter 2013 to IEM Cologne Major 2026
+- `kaggle/player_stats.csv` - overview of player data, including peak HLTV Rating3.0 and K/D as well as projected earnings and career length
+- `kaggle/team_rankings.csv` - all appearances by any team in the top twelve by HLTV Ranking 
 
 ### HLTV.org
 *The* competitive Counter-Strike database. [Link](https://www.hltv.org/team/9565/vitality) to Team Vitality's page, [list](https://www.hltv.org/stats/teams/matches/9565/vitality?startDate=2026-01-01&endDate=2026-12-31) of map results from 2026, and each player's statistics page: [apEX](https://www.hltv.org/stats/players/7322/apex?csVersion=CS2), [ropz](https://www.hltv.org/stats/players/11816/ropz?csVersion=CS2), [ZywOo](https://www.hltv.org/stats/players/11893/zywoo?csVersion=CS2), [flameZ](https://www.hltv.org/stats/players/16693/flamez?csVersion=CS2), and [mezii](https://www.hltv.org/stats/players/18462/mezii?csVersion=CS2). The following files use data from HLTV.org.
