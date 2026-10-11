@@ -22,7 +22,7 @@ As far as cleaning goes, there isn't much to do. Since the data pulls directly f
 
 Before cleaning:
 
-<img width="570" height="314" alt="image" src="https://github.com/user-attachments/assets/cef397df-f560-404f-bda8-4d33441ebbe4" />
+<img width="572" height="314" alt="image" src="https://github.com/user-attachments/assets/9dcf3905-8c5a-4b8b-be62-8092fbee7141" />
 
 After cleaning:
 
