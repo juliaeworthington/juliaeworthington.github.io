@@ -12,7 +12,12 @@ published: true
 Dataset providing a broad overview of competitive Counter-Strike, 2012-2026 ([link](https://www.kaggle.com/datasets/sergionefedov/counter-strike-competitive-scene-2012-2026?resource=download)).
 
 ### HLTV.org
-*The* competitive Counter-Strike database. [Link](https://www.hltv.org/team/9565/vitality) to Team Vitality's page, [list](https://www.hltv.org/stats/teams/matches/9565/vitality?startDate=2026-01-01&endDate=2026-12-31) of map results from 2026, and each player's statistics page: [apEX](https://www.hltv.org/stats/players/7322/apex?csVersion=CS2), [ropz](https://www.hltv.org/stats/players/11816/ropz?csVersion=CS2), [ZywOo](https://www.hltv.org/stats/players/11893/zywoo?csVersion=CS2), [flameZ](https://www.hltv.org/stats/players/16693/flamez?csVersion=CS2), and [mezii](https://www.hltv.org/stats/players/18462/mezii?csVersion=CS2). 
+*The* competitive Counter-Strike database. [Link](https://www.hltv.org/team/9565/vitality) to Team Vitality's page, [list](https://www.hltv.org/stats/teams/matches/9565/vitality?startDate=2026-01-01&endDate=2026-12-31) of map results from 2026, and each player's statistics page: [apEX](https://www.hltv.org/stats/players/7322/apex?csVersion=CS2), [ropz](https://www.hltv.org/stats/players/11816/ropz?csVersion=CS2), [ZywOo](https://www.hltv.org/stats/players/11893/zywoo?csVersion=CS2), [flameZ](https://www.hltv.org/stats/players/16693/flamez?csVersion=CS2), and [mezii](https://www.hltv.org/stats/players/18462/mezii?csVersion=CS2). From HLTV.org, we will be using the following files:
+- `hltv/navi_stats_clean.csv` - individual map statistics for every Vitality member for each match against Natus Vincere up to IEM Atlanta 2026
+- `hltv/player_stats_top5teams.csv` - detailed player statistics for each player on the top five teams (by HLTV ranking) against top-twenty teams in 2026
+- `hltv/top_players.csv` - basic player statistics for the top 136 players of 2026
+-  `hltv/top_teams.csv` - basic statistics for the top 24 teams of 2026
+- `hltv/tournaments_clean.csv` - scores for every Vitality game of 2026 up to StarLadder StarSeries Fall 2026
 
 ### rdy.gg 
 Visualizing Counter-Strike statistics, such as [player position](https://rdy.gg/en/cs2/stats?tab=player-positions), [player rating](https://rdy.gg/en/cs2/stats?tab=player-ratings), and [team summaries](https://rdy.gg/en/cs2/stats?tab=team-summary). 
