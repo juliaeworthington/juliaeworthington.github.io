@@ -49,3 +49,9 @@ After cleaning:
 <img width="1031" height="314" alt="image" src="https://github.com/user-attachments/assets/db2da1f4-4c6e-49f8-8f3b-3cf0c8b1557c" />
 
 ## Data Visualization
+
+<img width="640" height="480" alt="ctds_vs_tds" src="https://github.com/user-attachments/assets/f0778c4d-deef-4bb1-adfe-a89778277b81" />
+<img width="640" height="480" alt="tds_hist" src="https://github.com/user-attachments/assets/800173e9-f7e8-412b-b1a5-22c58f270adf" />
+<img width="640" height="480" alt="ctds_hist" src="https://github.com/user-attachments/assets/325030f2-f43e-4c38-a7b2-45817db3f9fe" />
+
+
