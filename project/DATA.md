@@ -53,5 +53,7 @@ After cleaning:
 <img width="640" height="480" alt="ctds_vs_tds" src="https://github.com/user-attachments/assets/f0778c4d-deef-4bb1-adfe-a89778277b81" />
 <img width="640" height="480" alt="tds_hist" src="https://github.com/user-attachments/assets/800173e9-f7e8-412b-b1a5-22c58f270adf" />
 <img width="640" height="480" alt="ctds_hist" src="https://github.com/user-attachments/assets/325030f2-f43e-4c38-a7b2-45817db3f9fe" />
+<img width="640" height="480" alt="rating_boxplot" src="https://github.com/user-attachments/assets/06a1c8a7-bf11-48c3-a9df-0fed696d059a" />
+
 
 
