@@ -26,7 +26,7 @@ Before cleaning:
 
 After cleaning:
 
-<img width="772" height="316" alt="image" src="https://github.com/user-attachments/assets/0f088e1d-9ddb-462a-92c5-84027f9e550f" />
+<img width="786" height="311" alt="image" src="https://github.com/user-attachments/assets/478f9614-41bc-4920-aa9b-3c979d12fbdf" />
 
 Kill/death ratios also needed to be reformatted from strings to integers. Similar to the `Result` string, the `K-D` column in `hltv/raw/player_stats_vs_navi.csv` was separated into two integer columns, `Kills` and `Deaths` in `hltv/navi_stats_clean.csv`.
 
