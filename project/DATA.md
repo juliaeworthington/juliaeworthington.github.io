@@ -32,10 +32,10 @@ Kill/death ratios also needed to be reformatted from strings to integers. Simila
 
 Before cleaning:
 
-<img width="1033" height="314" alt="image" src="https://github.com/user-attachments/assets/459e0177-85d4-46d6-a40b-059c41593490" />
+<img width="983" height="312" alt="image" src="https://github.com/user-attachments/assets/1772729e-b8c4-4d4c-aef4-65a26824a442" />
 
 After cleaning:
 
-<img width="983" height="312" alt="image" src="https://github.com/user-attachments/assets/1772729e-b8c4-4d4c-aef4-65a26824a442" />
+<img width="1033" height="314" alt="image" src="https://github.com/user-attachments/assets/459e0177-85d4-46d6-a40b-059c41593490" />
 
 ## Data Visualization
