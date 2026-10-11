@@ -18,7 +18,7 @@ Dataset providing a broad overview of competitive Counter-Strike, 2012-2026 ([li
 Visualizing Counter-Strike statistics, such as [player position](https://rdy.gg/en/cs2/stats?tab=player-positions), [player rating](https://rdy.gg/en/cs2/stats?tab=player-ratings), and [team summaries](https://rdy.gg/en/cs2/stats?tab=team-summary). 
 
 ## Data Cleaning
-As far as cleaning goes, there isn't much to do. Since the data pulls directly from game match files, there are no NAs or rows left empty. However, there are still strings that need to be converted to integers and columns that should be implemented for easier data analysis. For example, in the `hltv/tournaments_2026.csv` Github file, the `Result` string was parsed into two separate integers, `Vitality Score` and  `Opponent Score` to form `hltv/tournaments_clean`. A `Differential` integer was also added to aid in visualizations. 
+As far as cleaning goes, there isn't much to do. Since the data pulls directly from game match files, there are no NAs or rows left empty. However, there are still strings that need to be converted to integers and columns that should be implemented for easier data analysis. For example, in the `/hltv/raw/tournaments_2026.csv` Github file, the `Result` string was parsed into two separate integers, `Vitality Score` and  `Opponent Score` to form `hltv/tournaments_clean.csv`. A `Differential` integer was also added to aid in visualizations. 
 
 Before cleaning:
 
@@ -27,5 +27,16 @@ Before cleaning:
 After cleaning:
 
 <img width="772" height="316" alt="image" src="https://github.com/user-attachments/assets/0f088e1d-9ddb-462a-92c5-84027f9e550f" />
+
+Kill/death ratios also needed to be reformatted from strings to integers. Similar to the `Result` string, the `K-D` column in `hltv/raw/player_stats_vs_navi.csv` was separated into two integer columns, `Kills` and `Deaths` in `hltv/navi_stats_clean.csv`.
+
+Before cleaning:
+
+<img width="985" height="421" alt="image" src="https://github.com/user-attachments/assets/1d7bd2d0-303d-44bb-ab4e-34c92eb19db2" />
+
+After cleaning:
+
+<img width="1035" height="421" alt="image" src="https://github.com/user-attachments/assets/90a8c4f9-dff9-41e8-b983-3d4ef1db219a" />
+
 
 ## Data Visualization
