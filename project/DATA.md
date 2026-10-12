@@ -50,7 +50,7 @@ After cleaning:
 
 ## Data Visualization
 Starting with a boxplot of Rating3.0, showing each player's combined rating, T rating, and CT rating, from the `hltv/player_stats.csv` dataset.
-<img width="640" height="480" alt="rating_boxplot (1)" src="https://github.com/user-attachments/assets/5f5cdbba-7ed8-4b6a-8459-79f8b2f823e1" />
+<img width="640" height="480" alt="rating_boxplot (2)" src="https://github.com/user-attachments/assets/d461c5ca-ad3d-4f78-b470-eec2728452b6" />
 There are several outliers on the plots: one on the upper end of combined rating, three on the upper end of CT rating, and one on the lower end of all three. The outlier with the highest rating on combined and CT rating is one of the Vitality players, ZywOo. The other high outliers on CT rating are m0NESY of team Falcons and donk of team Spirit. Of these three players, ZywOo and m0NESY are AWPers, a role that tends to have higher Rating3.0. There is one outlier on the lower end of each of the three plots, and all three are a player by the name of karrigan. As the IGL of team Falcons, karrigan has the lowest rating in all of tier-1 Counter-Strike, and while the IGL role tends to lead to the lowest Rating3.0, apEX, Vitality's IGL, has a much higher rating of  
 
 
