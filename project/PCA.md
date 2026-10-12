@@ -7,3 +7,18 @@ sidebar:
   nav: "project"
 published: true
 ---
+
+## Overview
+Here, describe PCA. Explain the concept of eigenvalues and eigenvectors, which sit at the heart of PCA. What's dimensionality reduction and why is reducing the dimensionality of data is important for simplifying analysis and visualization? Elaborate the challenges posed by high-dimensional data and how dimensionality reduction can help address them. Have two images. More is fine.
+
+## Data Prep
+All models and methods require specific data formats. Explain what kind of data is needed for PCA and show an image of the sample of data you plan to use. LINK to the sample of data as well. 
+
+## Code
+Use R or Python to code PCA. LINK to the code.
+
+## Results
+Discuss, illustrate, describe, and visualize the results. Understand and explain how to visualize the relationship between variables and principal components. Include at least 2 visualizations for your data.
+
+## Conclusions
+What did you learn that pertains to your topic?
