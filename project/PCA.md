@@ -31,4 +31,4 @@ Below is a visualization of PCA and k-means clustering on the `hltv/player_stats
 
 
 ## Conclusions
-Sniping and clutching contribute the most to PC1 and Opening and Firepower contribute the most to PC2.
+Sniping and Clutching contribute the most to PC1 while Opening and Firepower contribute the most to PC2.
