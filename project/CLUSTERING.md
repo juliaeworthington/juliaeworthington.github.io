@@ -10,6 +10,12 @@ published: true
 ## Overview
 Here, describe clustering, including partitional vs, hierarchical. Note the distance metrics used. Discuss how you plan to use clustering to engage in discovery. Have two images. More is fine.
 
+Clustering is the process of grouping data. Clusters come in a variety of shapes and sizes, and how data is prepared and clustered can affect how clusters are formed and what they represent. This project uses two clustering methods, k-means clustering and hierarchical clustering. In k-means clustering, first, the number of clusters $k$ is chosen using an elbow or silhouette plot. Second, $k$ points are chosen as centroids, and the distance from each point to each centroid is calculated. Data points are assigned to the cluster with the nearest centroid, centroids are recalculated for each cluster, and the process is repeated until convergence is achieved. In hierarchical clustering, each point starts in its own cluster. At every following step, the two clusters with the closest point are merged. For $n$ data points, hierarchical clustering always begins with $n$ clusters and ends with 1. After forming the hierarchical clustering dendrogram, one can simply "cut" the dendrogram to achieve the desired number of clusters, which again can be given by an elbow or silhouette plot. Clustering has previously been used in Counter-Strike analytics to identify "star" players. The following image from Sam Carder of rdy.gg uses PCA and kNN clustering to group players by position and play-style. 
+
+<img width="680" height="680" alt="duelswing" src="https://github.com/user-attachments/assets/56bbe996-73b6-4003-ab87-474e556af66c" />
+((source)[https://x.com/LuzRaposa/status/1927314539835519100])
+
+
 ## Data Prep
 All models and methods require specific data formats. Clustering requires ONLY unlabeled numeric data. Explain this and show an image of the sample of data you plan to use. LINK to the sample of data as well. 
 
