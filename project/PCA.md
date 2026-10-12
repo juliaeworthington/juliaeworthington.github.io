@@ -19,6 +19,9 @@ Use R or Python to code PCA. LINK to the code.
 
 ## Results
 Discuss, illustrate, describe, and visualize the results. Understand and explain how to visualize the relationship between variables and principal components. Include at least 2 visualizations for your data.
+Below is a visualization of PCA and k-means clustering on the `hltv/player_stats.csv` data.
+<img width="640" height="480" alt="stats_pca" src="https://github.com/user-attachments/assets/e378f2ed-b209-4b01-a42f-847c13a0f170" />
+
 
 ## Conclusions
 What did you learn that pertains to your topic?
