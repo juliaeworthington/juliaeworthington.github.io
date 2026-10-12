@@ -39,10 +39,14 @@ Discuss, illustrate, describe, and visualize the results. Have at least one dend
 Below are the elbow and silhouette plots for the Maps and Rating3.0 features from `hltv/top_teams.csv`. The plots indicate that a k value between 6 and 8 provides the optimal number of clusters. 
 <img width="640" height="480" alt="maps_v_rating_elbow (2)" src="https://github.com/user-attachments/assets/06af7836-e253-4cf0-9208-841ba1c9f768" />
 <img width="640" height="480" alt="maps_v_rating_silhouette (1)" src="https://github.com/user-attachments/assets/264b631b-081e-4e27-b08d-9ef8247549f3" />
+Below are the clustered data plots, where the different colors on each plot represent different clusters. The plots have 6, 7, and 8 clusters, respectively.
+
+<img width="640" height="480" alt="teams_6_clusters" src="https://github.com/user-attachments/assets/ee97b6cd-1b3d-4a23-8bf3-60a952ad118d" />
+<img width="640" height="480" alt="teams_7_clusters" src="https://github.com/user-attachments/assets/30e5c210-fd5c-49ec-8707-c1adc52807cb" />
+<img width="640" height="480" alt="teams_8_clusters" src="https://github.com/user-attachments/assets/d095a24c-83df-4055-84b8-94e25ded266d" />
 
 
-
-<img width="640" height="480" alt="stats_elbow" src="https://github.com/user-attachments/assets/d5fd69be-b95c-460e-b4f2-392dba4d80fd" />
+<!-- <img width="640" height="480" alt="stats_elbow" src="https://github.com/user-attachments/assets/d5fd69be-b95c-460e-b4f2-392dba4d80fd" />
 <img width="640" height="480" alt="stats_silhouette" src="https://github.com/user-attachments/assets/50a92c5c-178a-48ed-b61b-c0316d92ab55" />
 <img width="640" height="480" alt="stats_pca" src="https://github.com/user-attachments/assets/e378f2ed-b209-4b01-a42f-847c13a0f170" />
 
