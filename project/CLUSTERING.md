@@ -49,10 +49,5 @@ Below are the clustered data plots, where the different colors on each plot repr
 <img width="640" height="480" alt="teams_8_clusters" src="https://github.com/user-attachments/assets/d095a24c-83df-4055-84b8-94e25ded266d" />
 
 
-<!-- <img width="640" height="480" alt="stats_elbow" src="https://github.com/user-attachments/assets/d5fd69be-b95c-460e-b4f2-392dba4d80fd" />
-<img width="640" height="480" alt="stats_silhouette" src="https://github.com/user-attachments/assets/50a92c5c-178a-48ed-b61b-c0316d92ab55" />
-<img width="640" height="480" alt="stats_pca" src="https://github.com/user-attachments/assets/e378f2ed-b209-4b01-a42f-847c13a0f170" />
--->
-
 ## Conclusions
 Each plot and its number of clusters tells a different story about the data. The k=6 and k=7 plots combine the two points with the highest Rating3.0, while k=8 breaks them in two. The point with the highest Rating3.0 is Team Vitality; the other is Team Spirit. These two teams have been neck and neck for the latter half of the year so far, with Spirit taking up the number one spot that was once occupied by Vitality. The elbow plot suggests that this is the optimal number of clusters, while the silhouette plot does not. Between k=6 and k=7 clusters, we only see shifts in the clustering of the other teams. Going forward, it might be especially important to compare Vitality with Spirit, the dominant team as of late. 
