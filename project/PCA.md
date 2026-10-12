@@ -25,13 +25,10 @@ Here is the code after centering.
 The code for PCA on the `hltv/player_stats.csv` dataset can all be found in [player_stats_pca.ipynb](https://github.com/juliaeworthington/juliaeworthington.github.io/blob/main/code/player_stats_pca.ipynb).
 
 ## Results
-Discuss, illustrate, describe, and visualize the results. Understand and explain how to visualize the relationship between variables and principal components. Include at least 2 visualizations for your data.
 Below is a visualization of PCA and k-means clustering on the `hltv/player_stats.csv` data. Because the clusters are formed from PC1 and PC2, the clusters appear jumbled in the plots PC3 and PC4.  
 <img width="640" height="480" alt="stats_pca12" src="https://github.com/user-attachments/assets/679d413b-b7f7-4aca-9b6e-5a189126b99e" />
 <img width="640" height="480" alt="stats_pca34" src="https://github.com/user-attachments/assets/ad338ec4-317d-4c6d-b349-ff043c6d4eca" />
 
 
-
-
 ## Conclusions
-What did you learn that pertains to your topic?
+Sniping and clutching contribute the most to PC1 and Opening and Firepower contribute the most to PC2.
