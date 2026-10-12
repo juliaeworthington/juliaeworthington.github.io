@@ -13,13 +13,16 @@ Clustering is the process of grouping data. Clusters come in a variety of shapes
 <img width="787" height="787" alt="Gr8yXFiWQAA6Df2" src="https://github.com/user-attachments/assets/92796bf8-9593-4e08-b27f-fe22340901ca" />
 ([source](https://x.com/LuzRaposa/status/1927314539835519100))
 
-In combination with [PCA](https://juliaeworthington.github.io/pca/), this project will use clustering to analyze and group players by performance; however, to avoid simply recreating the image above, different data will be used. In fact, the data used to create this plot is not provided by rdy.gg; only the Duel Swing statistic is provided, not the components that form it. As well as individual player statistics, clustering will also be used on team statistics to show changes in overall team performance over time. 
-
-
-
+In combination with [PCA](https://juliaeworthington.github.io/pca/), this project will use clustering to analyze and group players by performance; however, to avoid simply recreating the image above, different data will be used. In fact, the data used to create this plot is not provided by rdy.gg; only the Duel Swing statistic is provided, not the components that form it. In addition to individual player statistics, clustering will also be used on team statistics to show changes in overall team performance over time. 
 
 ## Data Prep
-All models and methods require specific data formats. Clustering requires ONLY unlabeled numeric data. Explain this and show an image of the sample of data you plan to use. LINK to the sample of data as well. 
+```python
+plt.scatter(X[:,0], X[:,1])
+plt.xlabel('Number of Maps against Top 20 Teams (standardized)')
+plt.ylabel('Rating3.0 (standardized)')
+plt.savefig('maps_v_rating_scatter_standard.png')
+plt.show()
+```
 
 ## Code
 Use R or Python to code k-means clustering and to code hierarchical clustering. Use Cosine Similarity as the distance measure for the h-clust.
