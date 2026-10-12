@@ -16,7 +16,7 @@ Clustering is the process of grouping data. Clusters come in a variety of shapes
 In combination with [PCA](https://juliaeworthington.github.io/pca/), this project will use clustering to analyze and group players by performance; however, to avoid simply recreating the image above, different data will be used. In fact, the data used to create this plot is not provided by rdy.gg; only the Duel Swing statistic is provided, not the components that form it. In addition to individual player statistics, clustering will also be used on team statistics to show changes in overall team performance over time. 
 
 ## Data Prep
-For k-means clustering, data must be standardized before any clustering can begin. This is because, in order for distance from centroids to be measured fairly, each axis needs to be shifted to have a mean of 0 and rescaled to have a variance of 1. For this, the `X = StandardScaler().fit_transform(data)` line in Python will be sufficient after removing any non-numerical rows from the data. In [`top_teams_clustering.ipynb`](), the following code block is used to standardize dataset `hltv/top_teams.csv` with two features: Maps and Rating3.0.
+For k-means clustering, data must be standardized before any clustering can begin. This is because, in order for distance from centroids to be measured fairly, each axis needs to be shifted to have a mean of 0 and rescaled to have a variance of 1. For this, the `X = StandardScaler().fit_transform(data)` line in Python will be sufficient after removing any non-numerical rows from the data. In [`top_teams_clustering.ipynb`](https://github.com/juliaeworthington/juliaeworthington.github.io/blob/main/code/top_teams_clustering.ipynb), the following code block is used to standardize dataset `hltv/top_teams.csv` with two features: Maps and Rating3.0.
 ```python
 data = df.drop(columns=['Team', 'K-D Diff', 'K/D'])
 X = StandardScaler().fit_transform(data)
@@ -30,7 +30,7 @@ Above is the original data. Below is the standardized data. Notice the differenc
 Each point on the plot is a different team. The purpose of this particular clustering analysis is to break the teams into categories: the definitive Tier 1 teams, Tier 1.5 and Tier 2 teams. While this would inherently call for only three clusters, elbow and silhouette plots may provide a different number of clusters that is specific to the shape of the data.
 
 ## Code
-All coding was done in Python and can be found in full in [`top_teams_clustering.ipynb`](). The following code block was used to perform and plot k-means clustering using k=6 clusters. 
+All coding was done in Python and can be found in full in [`top_teams_clustering.ipynb`](https://github.com/juliaeworthington/juliaeworthington.github.io/blob/main/code/top_teams_clustering.ipynb). The following code block was used to perform and plot k-means clustering using k=6 clusters. 
 
 ```python
 km = KMeans(n_clusters = 6)
