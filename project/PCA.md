@@ -9,12 +9,10 @@ published: true
 ---
 
 ## Overview
-Here, describe PCA. Explain the concept of eigenvalues and eigenvectors, which sit at the heart of PCA. What's dimensionality reduction and why is reducing the dimensionality of data is important for simplifying analysis and visualization? Elaborate the challenges posed by high-dimensional data and how dimensionality reduction can help address them. Have two images. More is fine.
-
-Principal component analysis (or PCA) finds the directions that carry the most variance of data. Oftentimes, data has too many dimensions to be visualized in 2D. PCA can solve this by reducing the dimension of the data to just two: PC1 and PC2. PC1 describes the largest spread of the data, followed by PC2, a vector orthogonal to PC1. To find PC1 and PC2, the covariance matrix of the prepped data is calculated using $$C=\frac{1}{n-1}X^TX$$
+Principal component analysis (or PCA) finds the directions that carry the most variance of data. Oftentimes, data has too many dimensions to be visualized in 2D. PCA can solve this by reducing the dimension of the data to just two: PC1 and PC2. PC1 describes the largest spread of the data, followed by PC2, a vector orthogonal to PC1. To find PC1 and PC2, the covariance matrix of the prepped data is calculated using $$C=\frac{1}{n-1}X^TX$$. Then the singular value decomposition (SVD) is calculated, $$C=\frac{1}{n-1}V\Sigma^2V^T$$. In this decomposition, the principal directions/loadings are the right singular vectors of
 
 ## Data Prep
-PCA, like clustering, simply requires that each feature column be standardized. Unlike clustering, dividing by the variance goes a step too far, as it changes the spread of every column to 1, defeating the purpose of PCA. 
+PCA, like clustering, simply requires that each feature column be centered. Unlike clustering, dividing by the variance goes a step too far, as it changes the spread of every column to 1, defeating the purpose of PCA. 
 
 ## Code
 Use R or Python to code PCA. LINK to the code.
