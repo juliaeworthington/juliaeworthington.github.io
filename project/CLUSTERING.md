@@ -38,8 +38,10 @@ km.fit(X)
 ```
 ## Results
 Below are the elbow and silhouette plots for the Maps and Rating3.0 features from `hltv/top_teams.csv`. The plots indicate that a k value between 6 and 8 provides the optimal number of clusters. 
+
 <img width="640" height="480" alt="maps_v_rating_elbow (2)" src="https://github.com/user-attachments/assets/06af7836-e253-4cf0-9208-841ba1c9f768" />
 <img width="640" height="480" alt="maps_v_rating_silhouette (1)" src="https://github.com/user-attachments/assets/264b631b-081e-4e27-b08d-9ef8247549f3" />
+
 Below are the clustered data plots, where the different colors on each plot represent different clusters. The plots have 6, 7, and 8 clusters, respectively.
 
 <img width="640" height="480" alt="teams_6_clusters" src="https://github.com/user-attachments/assets/ee97b6cd-1b3d-4a23-8bf3-60a952ad118d" />
@@ -53,4 +55,4 @@ Below are the clustered data plots, where the different colors on each plot repr
 -->
 
 ## Conclusions
-What did you learn that pertains to your topic?
+Each plot and its number of clusters tells a different story about the data. The k=6 and k=7 plots combine the two points with the highest Rating3.0, while k=8 breaks them in two. The point with the highest Rating3.0 is Team Vitality; the other is Team Spirit. These two teams have been neck and neck for the latter half of the year so far, with Spirit taking up the number one spot that was once occupied by Vitality. The elbow plot suggests that this is the optimal number of clusters, while the silhouette plot does not. Between k=6 and k=7 clusters, we only see shifts in the clustering of the other teams. Going forward, it might be especially important to compare Vitality with Spirit, the dominant team as of late. 
