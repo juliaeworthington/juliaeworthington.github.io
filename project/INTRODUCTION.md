@@ -18,6 +18,12 @@ Counter-Strike 2 is a first-person shooter game that consists of gameplay on two
 <img width="5436" height="3624" alt="agSqNuaqWxwCBWjdzlmeks" src="https://github.com/user-attachments/assets/13441a29-fddc-409a-9e68-1fb9d1a5038c" />
 ([image](https://www.hltv.org/gallery/view/269641))
 
+Counter-Strike data is primarily gathered through software that extracts metrics directly from gameplay servers. Countless sites and organizations collect and share this data, but HLTV.org is by far the most comprehensive. HLTV analyzes player and teams on a multitude of statistics, the most popular of which is Rating3.0. Introduced in 2025 specifically for Counter-Strike 2, Rating3.0 HLTV describes the statistic as "a metric that measures the direct impact of each kill." Rating3.0 is calculated using "six crucial sub-ratings:" Kills, Damage, Survival, KAST, Multi-Kills, and Round Swing, as described in the following graphic.
+
+<img width="1200" height="641" alt="image" src="https://github.com/user-attachments/assets/3a983c7b-54a3-40a9-afd9-1c096ae48444" />
+
+
+
 ## Research Questions
 1. Is a decline in player performance to blame for Vitality's recent trophy drought? If so, which players could be the problem, and why is their performance weaker than before?
 2. Was there ever a Vitality era? Does their performance during their peak compare to that of Astralis during their era?
