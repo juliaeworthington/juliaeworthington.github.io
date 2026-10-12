@@ -16,7 +16,10 @@ Clustering is the process of grouping data. Clusters come in a variety of shapes
 In combination with [PCA](https://juliaeworthington.github.io/pca/), this project will use clustering to analyze and group players by performance; however, to avoid simply recreating the image above, different data will be used. In fact, the data used to create this plot is not provided by rdy.gg; only the Duel Swing statistic is provided, not the components that form it. In addition to individual player statistics, clustering will also be used on team statistics to show changes in overall team performance over time. 
 
 ## Data Prep
+For k-means clustering, data must be standardized before any clustering can begin. This is because, in order for distance from centroids to be measured fairly, each axis needs to be shifted to have a mean of 0 and rescaled to have a variance of 1. For this, the `X = StandardScaler().fit_transform(data)` line in Python will be sufficient after removing any non-numerical rows from the data. In [`top_teams_clustering.ipynb`](), the following code block is used to plot the standardized data. Notice the difference on the axes for the two plots below. 
 ```python
+data = df.drop(columns=['Team', 'K-D Diff', 'K/D'])
+X = StandardScaler().fit_transform(data)
 plt.scatter(X[:,0], X[:,1])
 plt.xlabel('Number of Maps against Top 20 Teams (standardized)')
 plt.ylabel('Rating3.0 (standardized)')
