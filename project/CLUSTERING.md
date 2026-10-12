@@ -19,5 +19,11 @@ Use R or Python to code k-means clustering and to code hierarchical clustering. 
 ## Results
 Discuss, illustrate, describe, and visualize the results. Have at least one dendrogram and at least one clustering image (that's not a dendrogram). What values of k did you use for k - means (you should use at least 3 different k values to compare). What did the Silhouette method tell you about the "best k". Include a vis of the silhouette results. Using the hierarchical clustering, how did this compare and coincide with the k-means? What value of k does hclust suggest?
 
+<img width="640" height="480" alt="stats_elbow" src="https://github.com/user-attachments/assets/d5fd69be-b95c-460e-b4f2-392dba4d80fd" />
+<img width="640" height="480" alt="stats_silhouette" src="https://github.com/user-attachments/assets/50a92c5c-178a-48ed-b61b-c0316d92ab55" />
+<img width="640" height="480" alt="stats_pca" src="https://github.com/user-attachments/assets/e378f2ed-b209-4b01-a42f-847c13a0f170" />
+
+
+
 ## Conclusions
 What did you learn that pertains to your topic?
