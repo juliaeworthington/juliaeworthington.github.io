@@ -27,6 +27,8 @@ Above is the original data. Below is the standardized data. Notice the differenc
 
 <img width="640" height="480" alt="maps_v_rating_scatter_standard (1)" src="https://github.com/user-attachments/assets/6cefe095-b2a9-447b-b568-95e5e544b8f4" />
 
+Each point on the plot is a different team. The purpose of this particular clustering analysis is to break the teams into categories: the definitive Tier 1 teams, Tier 1.5 and Tier 2 teams. While this would inherently call for only three clusters, elbow and silhouette plots may provide a different number of clusters that is specific to the shape of the data.
+
 ## Code
 All coding was done in Python and can be found in full in [`top_teams_clustering.ipynb`](). The following code block was used to perform and plot k-means clustering using k=6 clusters. 
 
@@ -35,7 +37,6 @@ km = KMeans(n_clusters = 6)
 km.fit(X)
 ```
 ## Results
-Discuss, illustrate, describe, and visualize the results. Have at least one dendrogram and at least one clustering image (that's not a dendrogram). What values of k did you use for k - means (you should use at least 3 different k values to compare). What did the Silhouette method tell you about the "best k". Include a vis of the silhouette results. Using the hierarchical clustering, how did this compare and coincide with the k-means? What value of k does hclust suggest?
 Below are the elbow and silhouette plots for the Maps and Rating3.0 features from `hltv/top_teams.csv`. The plots indicate that a k value between 6 and 8 provides the optimal number of clusters. 
 <img width="640" height="480" alt="maps_v_rating_elbow (2)" src="https://github.com/user-attachments/assets/06af7836-e253-4cf0-9208-841ba1c9f768" />
 <img width="640" height="480" alt="maps_v_rating_silhouette (1)" src="https://github.com/user-attachments/assets/264b631b-081e-4e27-b08d-9ef8247549f3" />
@@ -49,8 +50,7 @@ Below are the clustered data plots, where the different colors on each plot repr
 <!-- <img width="640" height="480" alt="stats_elbow" src="https://github.com/user-attachments/assets/d5fd69be-b95c-460e-b4f2-392dba4d80fd" />
 <img width="640" height="480" alt="stats_silhouette" src="https://github.com/user-attachments/assets/50a92c5c-178a-48ed-b61b-c0316d92ab55" />
 <img width="640" height="480" alt="stats_pca" src="https://github.com/user-attachments/assets/e378f2ed-b209-4b01-a42f-847c13a0f170" />
-
-
+-->
 
 ## Conclusions
 What did you learn that pertains to your topic?
