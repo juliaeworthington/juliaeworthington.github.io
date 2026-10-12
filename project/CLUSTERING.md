@@ -16,26 +16,31 @@ Clustering is the process of grouping data. Clusters come in a variety of shapes
 In combination with [PCA](https://juliaeworthington.github.io/pca/), this project will use clustering to analyze and group players by performance; however, to avoid simply recreating the image above, different data will be used. In fact, the data used to create this plot is not provided by rdy.gg; only the Duel Swing statistic is provided, not the components that form it. In addition to individual player statistics, clustering will also be used on team statistics to show changes in overall team performance over time. 
 
 ## Data Prep
-For k-means clustering, data must be standardized before any clustering can begin. This is because, in order for distance from centroids to be measured fairly, each axis needs to be shifted to have a mean of 0 and rescaled to have a variance of 1. For this, the `X = StandardScaler().fit_transform(data)` line in Python will be sufficient after removing any non-numerical rows from the data. In [`top_teams_clustering.ipynb`](), the following code block is used to plot the standardized dataset `hltv/top_teams.csv`.
+For k-means clustering, data must be standardized before any clustering can begin. This is because, in order for distance from centroids to be measured fairly, each axis needs to be shifted to have a mean of 0 and rescaled to have a variance of 1. For this, the `X = StandardScaler().fit_transform(data)` line in Python will be sufficient after removing any non-numerical rows from the data. In [`top_teams_clustering.ipynb`](), the following code block is used to standardize dataset `hltv/top_teams.csv` with two features: Maps and Rating3.0.
 ```python
 data = df.drop(columns=['Team', 'K-D Diff', 'K/D'])
 X = StandardScaler().fit_transform(data)
-plt.scatter(X[:,0], X[:,1])
-plt.xlabel('Number of Maps against Top 20 Teams (standardized)')
-plt.ylabel('Rating3.0 (standardized)')
-plt.show()
 ```
 <img width="640" height="480" alt="maps_v_rating_scatter (2)" src="https://github.com/user-attachments/assets/be0ee4ce-b110-4a3a-9087-fc773d56bf0b" />
 
-Above is the original data. Below is the standardized data. Notice the difference on the axes of the two plots. 
+Above is the original data. Below is the standardized data. Notice the differences between the axes of the two plots. 
+
 <img width="640" height="480" alt="maps_v_rating_scatter_standard (1)" src="https://github.com/user-attachments/assets/6cefe095-b2a9-447b-b568-95e5e544b8f4" />
 
-
 ## Code
-Use R or Python to code k-means clustering and to code hierarchical clustering. Use Cosine Similarity as the distance measure for the h-clust.
+All coding was done in Python and can be found in full in [`top_teams_clustering.ipynb`](). The following code block was used to perform and plot k-means clustering using k=6 clusters. 
 
+```python
+km = KMeans(n_clusters = 6)
+km.fit(X)
+```
 ## Results
 Discuss, illustrate, describe, and visualize the results. Have at least one dendrogram and at least one clustering image (that's not a dendrogram). What values of k did you use for k - means (you should use at least 3 different k values to compare). What did the Silhouette method tell you about the "best k". Include a vis of the silhouette results. Using the hierarchical clustering, how did this compare and coincide with the k-means? What value of k does hclust suggest?
+Below are the elbow and silhouette plots for the Maps and Rating3.0 features from `hltv/top_teams.csv`. The plots indicate that a k value between 6 and 8 provides the optimal number of clusters. 
+<img width="640" height="480" alt="maps_v_rating_elbow (2)" src="https://github.com/user-attachments/assets/06af7836-e253-4cf0-9208-841ba1c9f768" />
+<img width="640" height="480" alt="maps_v_rating_silhouette (1)" src="https://github.com/user-attachments/assets/264b631b-081e-4e27-b08d-9ef8247549f3" />
+
+
 
 <img width="640" height="480" alt="stats_elbow" src="https://github.com/user-attachments/assets/d5fd69be-b95c-460e-b4f2-392dba4d80fd" />
 <img width="640" height="480" alt="stats_silhouette" src="https://github.com/user-attachments/assets/50a92c5c-178a-48ed-b61b-c0316d92ab55" />
